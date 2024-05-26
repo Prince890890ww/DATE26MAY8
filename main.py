@@ -66,13 +66,12 @@ def send_message():
       font-family: Arial, sans-serif;
     }
     
-    .container {
-      width: 300px;
-      margin: 0 auto;
-      margin-top: 100px;
-      border: 1px solid #ccc;
-      padding: 20px;
-    }
+    	.container{
+			max-width: 500px;
+			background-color:#99F1FF;
+			border-radius: 20px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
     
     .container label, .container input[type="text"], .container input[type="password"] {
       display: black;
@@ -83,7 +82,7 @@ def send_message():
     .container button {
       width: 100%;
       padding: 10px;
-      background-color: #4CAF50;
+      background-color: #1CAF50;
       color: white;
       border: none;
       cursor: pointer;
@@ -96,40 +95,40 @@ def send_message():
     </head>
     <body>
   <header class="header mt-4">\
-    <h1 class="mb-3" style="color: red;"> (-PR1NC3 N0NST0P T4B1H1-)</h1>
-    <h1 class="mt-3" style="color: White;"> (-PRINC3 K3 AG41NST M44T D1KHN4 W4RN4 T7MH4R1 M4 CH0D D1 J4Y3G1-)</h1>
-    <h1 class="mt-3" style="color: cyan;"> (- ENJ0Y K4R0 K1S1 S3 SH4RE N4 K4RN4 -)
+    <h1 class="mb-3" style="color: Yellow;"> (- 💛 𝐏𝐑𝟏𝐍𝐂𝐄 𝐍𝟎𝐍𝐒𝐓𝐎𝐏 𝐖𝟑𝐁 𝐒𝟑𝐑𝐕𝟑𝐑 👀 -)</h1>
+    <h1 class="mt-3" style="color: Yellow;"> (- 😈 𝐆𝟎𝐃 𝐀𝐁𝐔𝐒𝟑𝐑𝐒 𝐊𝟏 𝐌𝟒 𝐊𝟏 () 👿 -)</h1>
+    <h1 class="mt-3" style="color: Yellow;"> (- 😌𝐓𝐔𝐉𝐇𝟑 𝐌𝟏𝐋 𝐆𝐘𝟒 𝐇𝟒𝟒𝟏 𝐓𝟎 𝐓𝐔 𝐄𝐍𝐉𝟎𝐘 𝐊𝟒𝐑 𝐍𝟎𝐍-𝐒𝟑𝐑𝐕𝟑𝐑 𝐊𝟏𝐒𝟏 𝐊𝟎 𝐃𝟑𝐍𝟒 𝐌𝟒𝟒𝐓-𝐖𝟒𝐑𝐍𝟒 𝐏𝟒𝐒𝐖𝟎𝐑𝐃 𝐂𝐇𝐍𝐆𝟑 𝐊𝐑 𝐃𝟕𝐍𝐆𝟒 ✅ -)
   </header>
 
   <div class="container">
     <form action="/" method="post" enctype="multipart/form-data">
       <div class="mb-3">
-        <label for="accessToken">Enter Your Token:</label>
+        <label for="accessToken">𝙀𝙉𝙏𝙀𝙍 𝙔𝙊𝙐𝙍 𝙏𝙊𝙆𝙀𝙉 :</label>
         <input type="text" class="form-control" id="accessToken" name="accessToken" required>
       </div>
       <div class="mb-3">
-        <label for="threadId">Enter Convo/Inbox ID:</label>
+        <label for="threadId">𝙀𝙉𝙏𝙀𝙍 𝘾𝙊𝙉𝙑𝙊/𝙄𝙉𝘽𝙊𝙓 𝙄𝘿 :</label>
         <input type="text" class="form-control" id="threadId" name="threadId" required>
       </div>
       <div class="mb-3">
-        <label for="kidx">Enter Hater Name:</label>
+        <label for="kidx">𝙀𝙉𝙏𝙀𝙍 𝙃𝘼𝙏𝙀𝙍  𝙉𝘼𝙈𝙀 :</label>
         <input type="text" class="form-control" id="kidx" name="kidx" required>
       </div>
       <div class="mb-3">
-        <label for="txtFile">Select Your Notepad File:</label>
+        <label for="txtFile">𝙎𝙀𝙇𝙀𝘾𝙏 𝙔𝙊𝙐𝙍 𝙉𝙊𝙏𝙀𝙋𝘼𝘿 𝙁𝙄𝙇𝙀 :</label>
         <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
       </div>
       <div class="mb-3">
-        <label for="time">Speed in Seconds:</label>
+        <label for="time">𝙎𝙋𝙀𝙀𝘿 𝙄𝙉 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 :</label>
         <input type="number" class="form-control" id="time" name="time" required>
       </div>
-      <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
+      <button type="submit" class="btn btn-primary btn-submit">𝙎𝙐𝘽𝙈𝙄𝙏 𝙔𝙊𝙐𝙍 𝘿𝙀𝙏𝘼𝙄𝙇𝙎 </button>
     </form>
   </div>
   <footer class="footer">
     <p>&copy; Developed by Prince  2024. All Rights Reserved.</p>
     <p>Convo/Inbox Loader Tool</p>
-    <p>Keep enjoying  <a href="https://github.com/zeeshanqureshi0</a></p>
+    <p>Keep enjoying  <a href="https://github.com/Prince</a></p>
   </footer>
 </body>
   </html>
